@@ -1,64 +1,22 @@
-// Get the modal
-var modal = document.getElementById('myModal');
 
-// Get the button that opens the modal
-const images = document.querySelectorAll(".img_modal");
-const imgBigModal = document.querySelector('#img_big_modal');
-var videoBigModal = null;
-// Get the <span> element that closes the modal
-const span = document.getElementsByClassName("close")[0];
+//importa el modulo express
+var express = require('express');
+var motorRender = require('express-handlebars');
 
-const videoDirectory = {
-  './img/img_video_animacionLogo.png': './img/LiquidAnimationTest.mov',
-  './img/img_video_animacionPsy.png': './img/PSY_R2.mp4'
-}
+//crear la variable app que use express
+var app = express();
 
-// When the user clicks on the button, open the modal 
+app.use(express.static('public'));
 
-images.forEach(element => {
-    element.onclick = () => {
-        var isVideo = element.classList.contains('video');
-        if(isVideo){
+app.engine('handlebars',motorRender());
+app.set('view engine', 'handlebars');
 
-          var srcImage = element.getAttribute("src");
-          var srcVideo = videoDirectory[srcImage];
+app.get('/', function(req, res){
 
-          if (videoBigModal) {
-            videoBigModal.setAttribute('src', srcVideo);
-          } else {
-            var myVideo = document.createElement("video");
-            myVideo.setAttribute('src', srcVideo);
-            myVideo.controls = true;
-            videoBigModal = myVideo;
-
-            imgBigModal.replaceWith(myVideo);
-          }
-          
-        }else{
-
-          if (videoBigModal != null) {
-            videoBigModal.replaceWith(imgBigModal);
-            videoBigModal = null;
-          } 
-          //imgBigModal.replaceWith(myVideo);
-          imgBigModal.setAttribute('src',element.getAttribute("src"))
-        }
-        modal.style.display = "flex";
-    }
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    if (videoBigModal) {
-      videoBigModal.pause();
-    }
-  }
-}
+app.listen(3000, function(){
+  console.log('escuchando el puerto 3000');
+});
