@@ -25,7 +25,7 @@ app.get('/galeria', function(req, res){
   })
 });
 
-app.get('/users',function(req,res){
+app.get('/productos',function(req,res){
   res.json({
     error:false,
     data:dataJson.data,
