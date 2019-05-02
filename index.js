@@ -1,10 +1,12 @@
 
 //importa el modulo express
-var express = require('express');
-var motorRender = require('express-handlebars');
+const express = require('express');
+const motorRender = require('express-handlebars');
 
 //crear la variable app que use express
-var app = express();
+const app = express();
+
+const dataJson = require('./productos.json');
 
 app.use(express.static('public'));
 
@@ -16,6 +18,19 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/public/index.html');
 });
 
+app.get('/galeria', function(req, res){
+  res.json({
+    name: 'galeria',
+    productos:20
+  })
+});
+
+app.get('/users',function(req,res){
+  res.json({
+    error:false,
+    data:dataJson.data,
+  })
+})
 
 app.listen(3000, function(){
   console.log('escuchando el puerto 3000');
