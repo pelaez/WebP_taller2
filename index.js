@@ -22,10 +22,10 @@ app.get('/', function(req, res){
 });
 
 app.get('/galeria', function(req, res){
-  res.json({
-    name: 'galeria',
-    productos:20
-  })
+  var contexto = {
+    titulo: 'Galería',
+  };
+  res.render('galeria', contexto);
 });
 
 app.get('/productos',function(req,res){
