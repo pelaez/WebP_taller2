@@ -1,163 +1,183 @@
 {
     "data":[
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Paper Boat Bottle",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_bottle.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Aku aku ",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_ukauka.png",
+            "precio": "200.000",
+            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "Flowing",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_barco.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
+            "nombre": "Finger laser beam!",
+            "categoria": "Ilustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
-            "precio": "150.000",
+            "imagen": "./img/galery_pie.png",
+            "precio": "300.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "Logo",
+            "categoria": "Animación",
+            "tecnica": "Digital",
+            "variacion de color": "Blanco y Negro",
+            "video": "./img/LiquidAnimationTest.mov",
+            "precio": "500.000",
+            "descripcion": "Servicio de animación para logo empresarial o personal."
         },
         {
             "nombre": "Psyduck",
             "categoria": "Animación",
+            "tecnica": "Analoga - Digital",
+            "variacion de color": "Blanco y Negro",
+            "video": "./img/PSY_R2.mp4",
+            "precio": "500.000",
+            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "El Gato banano",
+            "categoria": "IlustraciónIlustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
+            "imagen": "./img/galery_gatoban.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Breakable Cubone",
+            "categoria": "Ilustración",
+            "tecnica": "Lapíz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_cubone.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Paper Boat Bottle",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_bottle.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Aku aku ",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_ukauka.png",
+            "precio": "200.000",
+            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "Flowing",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_barco.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
+            "nombre": "Finger laser beam!",
+            "categoria": "Ilustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
-            "precio": "150.000",
+            "imagen": "./img/galery_pie.png",
+            "precio": "300.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "Logo",
+            "categoria": "Animación",
+            "tecnica": "Digital",
+            "variacion de color": "Blanco y Negro",
+            "video": "./img/LiquidAnimationTest.mov",
+            "precio": "500.000",
+            "descripcion": "Servicio de animación para logo empresarial o personal."
         },
         {
             "nombre": "Psyduck",
             "categoria": "Animación",
+            "tecnica": "Analoga - Digital",
+            "variacion de color": "Blanco y Negro",
+            "video": "./img/PSY_R2.mp4",
+            "precio": "500.000",
+            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "El Gato banano",
+            "categoria": "IlustraciónIlustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
+            "imagen": "./img/galery_gatoban.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Breakable Cubone",
+            "categoria": "Ilustración",
+            "tecnica": "Lapíz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_cubone.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Paper Boat Bottle",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_bottle.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
+            "nombre": "Aku aku ",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_ukauka.png",
+            "precio": "200.000",
+            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
+        },
+        {
+            "nombre": "Flowing",
+            "categoria": "Ilustración",
+            "tecnica": "Lápiz",
+            "variacion de color": "Blanco y Negro",
+            "imagen": "./img/galery_barco.png",
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
         {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
+            "nombre": "Finger laser beam!",
+            "categoria": "Ilustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
-            "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
-        {
-            "nombre": "Psyduck",
-            "categoria": "Animación",
-            "tecnica": "Digital",
-            "variacion de color": "Color",
-            "precio": "150.000",
+            "imagen": "./img/galery_pie.png",
+            "precio": "300.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         }
     ]
