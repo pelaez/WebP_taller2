@@ -3,6 +3,28 @@
 const express = require('express');
 const motorRender = require('express-handlebars');
 
+const MongoClient = require('mongodb').MongoClient;
+const assert = require('assert');
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+
+// Database Name
+const dbName = 'galeria';
+
+// Create a new MongoClient
+const client = new MongoClient(url);
+
+// Use connect method to connect to the Server
+client.connect(function(err) {
+  assert.equal(null, err);
+  console.log("Conectado al servidor");
+
+  const db = client.db(dbName);
+
+  client.close();
+});
+
 //crear la variable app que use express
 const app = express();
 
