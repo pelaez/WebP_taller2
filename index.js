@@ -14,8 +14,11 @@ app.engine('handlebars',motorRender());
 app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res){
-
-  res.sendFile(__dirname + '/public/index.html');
+  var contexto = {
+    titulo: 'Página inicial',
+  };
+  res.render('home', contexto);
+  //res.sendFile(__dirname + '/public/index.html');
 });
 
 app.get('/galeria', function(req, res){

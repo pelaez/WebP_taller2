@@ -12,16 +12,8 @@
 </head>
 
 <body>
-    <header class="header-principal">
-        <nav class="navegador">
-            <a href="/"><img src="./img/iconNavP.png" alt=""></a>
-            <p class="navegador__text"><a href="#" class="navegador__link">Inicio</a></p>
-            <p class="navegador__text"><a href="#" class="navegador__link">Servicios</a></p>
-            <p class="navegador__text"><a href="#" class="navegador__link">Proyectos</a></p>
-            <p class="navegador__text"><a href="/galeria" class="navegador__link">Galería</a></p>
-            <p class="navegador__text"><a href="#" class="navegador__link">Acerca</a></p>
-        </nav>
-    </header>
+    {{> header}}
+    
 
     <div class="banner-princ">
         <section class="banner-princ__cont">
@@ -115,21 +107,7 @@
         </section>
     </div>
 
-    <footer>
-
-        <div class="cont_footer">
-            <section class="cont_footer__icons">
-                <a href="#"><img src="./img/icono_fb.png" alt=""></a>
-                <a href="https://www.instagram.com/jcpelaez7/?hl=es-la" target="blank"><img src="./img/icono_inst.png"
-                        alt=""></a>
-                <a href="#"><img src="./img/icono_pint.png" alt=""></a>
-                <a href="#"><img src="./img/icono_Be.png" alt=""></a>
-            </section>
-
-            <p class="cont_footer__text">© 2019 Juan Carlos Peláez. Todos los derechos reservados.</p>
-
-        </div>
-    </footer>
+    {{> footer}}
     <!-- Modal -->
     <div id="myModal" class="modal">
         <div class="modal-content">
