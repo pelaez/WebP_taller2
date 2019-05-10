@@ -15,6 +15,8 @@ const dbName = 'galeria';
 // Create a new MongoClient
 const client = new MongoClient(url);
 
+var db = null;
+
 // Use connect method to connect to the Server
 client.connect(function(err) {
   assert.equal(null, err);
@@ -43,9 +45,21 @@ app.get('/', function(req, res){
   //res.sendFile(__dirname + '/public/index.html');
 });
 
+
 app.get('/galeria', function(req, res){
+
+  //const collection = db.collection('productos');
+
+  //collection.find({}).toArray(function(err, docs){
+
+    //assert.equal(null, err);
+    //console.log("Encontrados");
+    //console.log(docs);
+
+  //});
+
   var contexto = {
-    titulo: 'Galería',
+    
   };
   res.render('galeria', contexto);
 });

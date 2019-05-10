@@ -321,6 +321,61 @@ body{
     }
 }
 
+.titulo-paginas{
+    color: #2E94B5;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3em;
+    margin: 0 0;
+}
+
+//Página galeriá
+.titulo-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.cantidad-productos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.producto{
+    background-color: #F4F4F4;
+    padding: 1em;
+
+    &__categoria{
+    color: #606060;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin: 0;
+    }
+
+    &__nombre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 1em 0 0 0;
+    }
+
+    &__precio{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+        margin: 1em 0 0 0;  
+    }
+}
+
 .cont_footer{
     padding: 2em 0 1em 0;
     background-color: #0F0F0F;
