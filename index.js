@@ -22,9 +22,9 @@ client.connect(function(err) {
   assert.equal(null, err);
   console.log("Conectado al servidor");
 
-  const db = client.db(dbName);
+  db = client.db(dbName);
 
-  client.close();
+ // client.close();
 });
 
 //crear la variable app que use express
@@ -48,20 +48,21 @@ app.get('/', function(req, res){
 
 app.get('/galeria', function(req, res){
 
-  //const collection = db.collection('productos');
+  const productos = db.collection('productos');
 
-  //collection.find({}).toArray(function(err, docs){
+  productos.find({}).toArray(function(err, docs){
 
-    //assert.equal(null, err);
-    //console.log("Encontrados");
-    //console.log(docs);
+    assert.equal(err, null);
+    console.log("Productos Encontrados");
+    console.log(docs);
 
-  //});
+    var contexto = {
+      productos: docs,
+    };
+    res.render('galeria', contexto);
+  });
 
-  var contexto = {
-    
-  };
-  res.render('galeria', contexto);
+
 });
 
 app.get('/productos',function(req,res){

@@ -56,7 +56,7 @@
         },
         {
             "nombre": "El Gato banano",
-            "categoria": "IlustraciónIlustración",
+            "categoria": "Ilustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
             "imagen": "./img/galery_gatoban.png",
@@ -128,7 +128,7 @@
         },
         {
             "nombre": "El Gato banano",
-            "categoria": "IlustraciónIlustración",
+            "categoria": "Ilustración",
             "tecnica": "Digital",
             "variacion de color": "Color",
             "imagen": "./img/galery_gatoban.png",
