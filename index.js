@@ -53,8 +53,8 @@ app.get('/galeria', function(req, res){
   productos.find({}).toArray(function(err, docs){
 
     assert.equal(err, null);
-    console.log("Productos Encontrados");
-    console.log(docs);
+    //console.log("Productos Encontrados");
+    //console.log(docs);
 
     var contexto = {
       productos: docs,
@@ -62,6 +62,19 @@ app.get('/galeria', function(req, res){
     res.render('galeria', contexto);
   });
 
+
+});
+
+app.get('/galeria/producto/:nombre', function(req, res){
+  var collection = db.collection('productos');
+  collection.find({ nombre: req.params.nombre}).toArray(function(err, docs){
+    console.log(docs);
+
+    var contexto ={
+      producto: docs [0]
+    };
+    res.render('producto', contexto);
+  });
 
 });
 

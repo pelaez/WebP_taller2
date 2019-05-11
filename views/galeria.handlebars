@@ -1,5 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    
 <head>
     {{> head}}
+    <title>Galería</title>
 
 </head>
 
@@ -15,7 +19,7 @@
     <div class="contenedor-productos">
         {{#each productos}}
         <section class="producto">
-            <img src="{{imagen}}" alt="" class="producto__imagen">
+            <a href="/galeria/producto/{{nombre}}"><img src="{{imagen}}" alt="" class="producto__imagen"></a>
             <article class="producto__info">
             <p class="producto__categoria">{{categoria}}</p>
             <h4 class="producto__nombre">{{nombre}}</h4>
