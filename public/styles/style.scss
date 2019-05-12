@@ -351,7 +351,7 @@ body{
     margin: 0;
 }
 
-.producto{
+.producto-galeria{
     
     margin: 1em;
 
@@ -387,6 +387,43 @@ body{
         font-weight: 300;
         margin: 1em 0 0 0;  
     }
+}
+
+.producto{
+    margin: 1em;
+
+    &__info{
+        width: 100%
+    }
+
+    &__categoria{
+        color: #606060;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+        margin: 3em 0 0 0;
+        }
+        
+    &__nombre{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        margin: 0.2em 0 0 0;
+        }
+
+    &__precio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em 0 0 0;  
+    }
+
+    &__imagen{
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+
+
 }
 
 .cont_footer{
