@@ -391,9 +391,13 @@ body{
 
 .producto{
     margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
     &__info{
-        width: 100%
+        width: 100%;
+        margin-bottom: 2em;
     }
 
     &__categoria{
@@ -401,7 +405,7 @@ body{
         font-family: 'Roboto', sans-serif;
         font-size: 1em;
         font-weight: 300;
-        margin: 3em 0 0 0;
+        margin: 1em 0 0 0;
         }
         
     &__nombre{
@@ -420,10 +424,30 @@ body{
 
     &__imagen{
         width: 100%;
-        margin: 1em 0 0 0;
+        margin: 1em 0 1em 0;
     }
 
 
+}
+
+.detalles-producto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0.5em;
+
+    &__titulo{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        margin: 1em 0 0 0;
+    }
+
+    &__texto{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+    }
 }
 
 .cont_footer{
@@ -435,7 +459,7 @@ body{
     align-items: center;
 
     &__icons{
-        
+        //aqui va algo :p
     }
 
     &__text{
@@ -473,5 +497,23 @@ body{
 
     .img1{
         width: 700px;
+        
+    }
+
+    .producto{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        &__imagen{
+            width: 500px;
+            height: 100%;
+            flex-shrink: 0;
+            order: 0;
+        }
+
+        
+    }
+
+    .detalles-producto{
+        margin: 2em;
     }
 }
