@@ -33,6 +33,7 @@ const app = express();
 const dataJson = require('./productos.json');
 
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
 
 app.engine('handlebars',motorRender());
 app.set('view engine', 'handlebars');
@@ -46,18 +47,27 @@ app.get('/', function(req, res){
 });
 
 
-app.get('/galeria', function(req, res){
+app.get('/galeria/:categoria?', function(req, res){
+
+  
+  var query = {};
+  if(req.params.categoria){
+    query.categoria = req.params.categoria;
+  }
+
+  
 
   const productos = db.collection('productos');
 
-  productos.find({}).toArray(function(err, docs){
+  productos.find(query).toArray(function(err, docs){
 
     assert.equal(err, null);
     //console.log("Productos Encontrados");
     //console.log(docs);
-
+    
     var contexto = {
       productos: docs,
+      categoria: req.params.categoria,
     };
     res.render('galeria', contexto);
   });
