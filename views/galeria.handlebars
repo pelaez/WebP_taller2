@@ -12,19 +12,32 @@
 
     {{> header}}
 
+    <div class="carrito-desplegado">
+        <ul class="carrito-desplegado__lista"></ul>
+    </div>
+
     <div class="titulo-galeria">
         <h1 class="titulo-paginas">Galería</h1>
         <p class="cantidad-productos">20 productos</p>
     </div>
 
     <div class="filtros">
-        
+
         <h2 class="filtros__titulo">Filtros</h2>
-    <ul>
-        <li><a href="/galeria/Ilustración" class="filtros__item">Ilustración</a></li>
-        <li><a href="/galeria/Animación" class="filtros__item">Animación</a></li>
-    </ul>
-       
+        <ul>
+            <li><a href="/galeria" class="filtros__item">Todo</a></li>
+            
+        </ul>
+        <ul>
+            <li><a href="/galeria/Ilustración" class="filtros__item">Ilustración</a></li>
+            <li><a href="/galeria/Animación" class="filtros__item">Animación</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="/galeria/Digital" class="filtros__item">Digital</a></li>
+            <li><a href="/galeria/Lápiz" class="filtros__item">Lápiz</a></li>
+        </ul>
+
     </div>
 
     <div class="contenedor-productos">
@@ -41,6 +54,7 @@
 
         {{/each}}
     </div>
+    <script src="/scripts/galeria.js"></script>
 </body>
 
 {{> footer}}

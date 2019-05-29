@@ -12,6 +12,10 @@
 
     <div class="producto">
 
+        {{#if esAnimacion}}
+            
+        {{/if}}
+
         <img src="{{producto.imagen}}" alt="" class="producto__imagen">
         <section class="detalles-producto">
             <section class="producto__info">
@@ -19,11 +23,13 @@
                 <h1 class="producto__nombre">{{producto.nombre}}</h1>
                 <p class="producto__precio">${{producto.precio}}</p>
             </section>
-            <button class="boton-princ">Añadir al carrito</button>
+            <button class="boton-princ" "producto__agregar">Añadir al carrito</button>
             <h2 class="detalles-producto__titulo">Detalles</h2>
             <p class="detalles-producto__texto">{{producto.descripcion}}</p>
         </section>
     </div>
+
+    <script src="/scripts/galeria.js"></script>
 </body>
 
 {{> footer}}

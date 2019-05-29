@@ -49,13 +49,10 @@ app.get('/', function(req, res){
 
 app.get('/galeria/:categoria?', function(req, res){
 
-  
   var query = {};
   if(req.params.categoria){
     query.categoria = req.params.categoria;
   }
-
-  
 
   const productos = db.collection('productos');
 
@@ -63,25 +60,32 @@ app.get('/galeria/:categoria?', function(req, res){
 
     assert.equal(err, null);
     //console.log("Productos Encontrados");
-    //console.log(docs);
+    //console.log(req.params);
     
     var contexto = {
       productos: docs,
       categoria: req.params.categoria,
+      
     };
+    
     res.render('galeria', contexto);
   });
 
-
 });
 
+
+
 app.get('/galeria/producto/:nombre', function(req, res){
+
+  
+
   var collection = db.collection('productos');
   collection.find({ nombre: req.params.nombre}).toArray(function(err, docs){
     console.log(docs);
 
     var contexto ={
-      producto: docs [0]
+      producto: docs [0],
+      esAnimacion: req.params.categoria == "Animación",
     };
     res.render('producto', contexto);
   });
