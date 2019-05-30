@@ -45,6 +45,7 @@ body{
 
     display: flex;
     flex-direction: row;
+    background-color: #0F0F0F;
 
     &__titulo{
         color: white;
@@ -58,8 +59,10 @@ body{
 
     &__cont{
         background-image: url(../img/header_web_fondo.png);
+        background-color: #0F0F0F;
         background-repeat: no-repeat;
         background-size: cover;
+        opacity: 0.0;
         background-position: center;
         min-height: 200px;
         width: 100%;
@@ -70,6 +73,9 @@ body{
         }
 
     &__logo{
+        position: relative;
+        bottom: -100px;
+        opacity: 0.0;
         min-height: 100px;
         width: 100%;
         flex-grow: 0;
@@ -253,7 +259,8 @@ body{
     background-image: url(../img/UkaukaPlay.png);
     background-repeat: no-repeat;
     background-size: 180%;
-    background-position: right;
+    background-position: center;
+    opacity: 0;
     margin: 2em;
     display: flex;
     flex-direction: column;
