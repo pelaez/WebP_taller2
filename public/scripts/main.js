@@ -21,9 +21,6 @@ function mostrarEspecificaciones(){
 
 especfs.addEventListener('mouseover', mostrarEspecificaciones);
 
-//Galeria
-
-TweenMax.from(".producto-galeria", 1, {opacity:0, y:100, delay:0.5});
 
 }
 

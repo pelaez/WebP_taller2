@@ -5,7 +5,10 @@
             "categoria": "Ilustración",
             "tecnica": "Lápiz",
             "variacion de color": "Blanco y Negro",
-            "imagen": "./img/galery_bottle.png",
+            "imagen": [
+                "./img/galery_bottle.png",
+                "./img/galery_bottle.png"
+            ],
             "precio": "150.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
         },
@@ -17,7 +20,7 @@
             "imagen": "./img/galery_ukauka.png",
             "precio": "200.000",
             "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas condimentum enim at dolor condimentum malesuada."
-        },
+                },
         {
             "nombre": "Flowing",
             "categoria": "Ilustración",
