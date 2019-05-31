@@ -27,7 +27,7 @@ var db = null;
  // client.close();
 //});
 
-client.connect(`mongodb+srv://@cluster0-8ytie.mongodb.net/galeria?retryWrites=true&w=majority`,
+MongoClient.connect(`mongodb+srv://@cluster0-8ytie.mongodb.net/galeria?retryWrites=true&w=majority`,
 {
   auth: {
     user: 'juankbzon',
