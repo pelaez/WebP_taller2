@@ -17,26 +17,30 @@ const client = new MongoClient(url);
 
 var db = null;
 
-// Use connect method to connect to  the Server
-client.connect(`mongodb+srv://@cluster0-8ytie.mongodb.net/galeria`,
-   {
-     auth:{
-       user: 'juankbzon',
-       password: 'rocky2-juan7'
-     }
-   },
-  function (err, client) {
-    if (err) throw err;
+// Use connect method to connect to the Server
+//client.connect(function(err) {
+//  assert.equal(null, err);
+//  console.log("Conectado al servidor");
 
-    db = client.db('galeria');
-
-    app.listen(process.env,PORT || 1234);
-  }
-);
-
-  
+//  db = client.db(dbName);
 
  // client.close();
+//});
+
+client.connect(`mongodb+srv://@cluster0-8ytie.mongodb.net/galeria?retryWrites=true&w=majority`,
+{
+  auth: {
+    user: 'juankbzon',
+    password: 'rocky2-juan7'
+  }
+},
+function (err, cliente){
+  if (err) throw err;
+  db = cliente.db('galeria');
+
+  app.listen(process.env.PORT || 1234);
+}
+);
  
 
 //crear la variable app que use express
