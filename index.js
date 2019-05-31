@@ -18,7 +18,7 @@ const client = new MongoClient(url);
 var db = null;
 
 // Use connect method to connect to  the Server
-client.connect('mongodb+srv://cluster0-8ytie.mongodb.net/galeria',
+client.connect(`mongodb+srv://cluster0-8ytie.mongodb.net/galeria`,
    {
      auth:{
        user: 'juankbzon',
