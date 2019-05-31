@@ -17,15 +17,25 @@ const client = new MongoClient(url);
 
 var db = null;
 
-// Use connect method to connect to the Server
-client.connect(function(err) {
-  assert.equal(null, err);
-  console.log("Conectado al servidor");
+// Use connect method to connect to  the Server
+client.connect('mongodb+srv://cluster0-8ytie.mongodb.net/galeria',
+   {
+     auth:{
+       user: 'juankbzon',
+       password: 'rocky2-juan7'
+     }
+   },
+  function (err, client){
+    db = client.db(dbName);
 
-  db = client.db(dbName);
+    app.listen(process.env,PORT || 1234);
+  }
+);
+
+  
 
  // client.close();
-});
+ 
 
 //crear la variable app que use express
 const app = express();
