@@ -18,17 +18,17 @@ const client = new MongoClient(url);
 var db = null;
 
 // Use connect method to connect to  the Server
-client.connect(`mongodb+srv://cluster0-8ytie.mongodb.net/galeria`,
+client.connect(`mongodb+srv://@cluster0-8ytie.mongodb.net/galeria`,
    {
      auth:{
        user: 'juankbzon',
        password: 'rocky2-juan7'
      }
    },
-  function (err, client){
+  function (err, client) {
     if (err) throw err;
-    
-    db = client.db(dbName);
+
+    db = client.db('galeria');
 
     app.listen(process.env,PORT || 1234);
   }
