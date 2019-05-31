@@ -48,11 +48,10 @@ const app = express();
 
 const dataJson = require('./productos.json');
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
 app.engine('handlebars',motorRender());
-app.set('views', './views');
 app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res){
