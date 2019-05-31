@@ -48,7 +48,7 @@ const app = express();
 
 const dataJson = require('./productos.json');
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
 
 app.engine('handlebars',motorRender());
