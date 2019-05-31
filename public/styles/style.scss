@@ -405,6 +405,16 @@ body{
         height: 250px;
     }
 
+    &__imagenDos{
+        flex: 0 1 100px;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        opacity: 0;
+    }
+
     &__info{
         background-color: #F4F4F4;
         padding: 1em;

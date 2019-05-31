@@ -43,6 +43,7 @@
     <div class="contenedor-productos">
         {{#each productos}}
         <section class="producto-galeria">
+            <a href="/galeria/producto/{{nombre}}"><img src="{{imagen.[1]}}" alt="" class="producto-galeria__imagenDos"></a>
             <a href="/galeria/producto/{{nombre}}"><img src="{{imagen.[0]}}" alt="" class="producto-galeria__imagen"></a>
             <article class="producto__info">
                 <p class="producto-galeria__categoria">{{categoria}}</p>
@@ -55,6 +56,7 @@
         {{/each}}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./scripts/galeriaMain.js"></script>
 </body>
 

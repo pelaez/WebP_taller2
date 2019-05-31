@@ -13,10 +13,10 @@
     <div class="producto">
 
         {{#if esAnimacion}}
-            
+            <a href="/">animacion</a>
         {{/if}}
 
-        <img src="{{producto.imagen}}" alt="" class="producto__imagen">
+        <img src="{{producto.imagen.[0]}}" alt="" class="producto__imagen">
         <section class="detalles-producto">
             <section class="producto__info">
                 <h3 class="producto__categoria">{{producto.categoria}}</h3>
@@ -29,7 +29,7 @@
         </section>
     </div>
 
-    <script src="/scripts/galeria.js"></script>
+    
 </body>
 
 {{> footer}}
