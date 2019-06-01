@@ -54,8 +54,8 @@
             "tecnica": "Digital",
             "variacion de color": "Blanco y Negro",
             "imagen": [
-                "img_video_animacionLogo.png",
-                "img_video_animacionLogo_01.png"                
+                "./img/img_video_animacionLogo.png",
+                "./img/img_video_animacionLogo_01.png"                
             ],
             "video": "./img/LiquidAnimationTest.mov",
             "precio": "500.000",
@@ -67,8 +67,8 @@
             "tecnica": "Analoga - Digital",
             "variacion de color": "Blanco y Negro",
             "imagen": [
-                "img_video_animacionPsy.png",
-                "img_video_animacionPsy_01.png"                
+                "./img/img_video_animacionPsy.png",
+                "./img/img_video_animacionPsy_01.png"                
             ],
             "video": "./img/PSY_R2.mp4",
             "precio": "500.000",
@@ -152,8 +152,8 @@
             "tecnica": "Digital",
             "variacion de color": "Blanco y Negro",
             "imagen": [
-                "img_video_animacionLogo.png",
-                "img_video_animacionLogo_01.png"                
+                "./img/img_video_animacionLogo.png",
+                "./img/img_video_animacionLogo_01.png"                
             ],
             "video": "./img/LiquidAnimationTest.mov",
             "precio": "500.000",
@@ -165,8 +165,8 @@
             "tecnica": "Analoga - Digital",
             "variacion de color": "Blanco y Negro",
             "imagen": [
-                "img_video_animacionPsy.png",
-                "img_video_animacionPsy_01.png"                
+                "./img/img_video_animacionPsy.png",
+                "./img/img_video_animacionPsy_01.png"                
             ],
             "video": "./img/PSY_R2.mp4",
             "precio": "500.000",
