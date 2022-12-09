@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pelaez/WebP_taller2#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-handlebars": "^3.0.2"
   }
 }
